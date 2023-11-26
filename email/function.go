@@ -9,10 +9,10 @@ import (
 )
 
 func init() {
-	functions.HTTP("warehouse", warehouse_emaill)
+	functions.HTTP("warehouse", warehouse_email)
 }
 
-func warehouse_emaill(w http.ResponseWriter, r *http.Request) {
+func warehouse_email(w http.ResponseWriter, r *http.Request) {
 	// Set CORS headers for the preflight request
 	if r.Method == http.MethodOptions {
 		w.Header().Set("Access-Control-Allow-Origin", "https://warehousemanagement88.github.io")
