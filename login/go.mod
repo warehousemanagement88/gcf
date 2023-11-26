@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.0
-	github.com/warehousemanagement88/be_warehouse v0.0.2
+	github.com/warehousemanagement88/be_warehouse v0.0.5
 )
 
 require (
