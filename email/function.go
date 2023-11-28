@@ -1,11 +1,11 @@
-package gcf
+package email
 
 import (
 	"fmt"
 	"net/http"
 
 	"github.com/GoogleCloudPlatform/functions-framework-go/functions"
-	"github.com/warehousemanagement88/be_warehouse/module"
+	module "github.com/warehousemanagement88/be_warehouse/module"
 )
 
 func init() {
@@ -24,6 +24,6 @@ func warehouse_email(w http.ResponseWriter, r *http.Request) {
 	}
 	// Set CORS headers for the main request.
 	w.Header().Set("Access-Control-Allow-Origin", "https://warehousemanagement88.github.io")
-	fmt.Fprintf(w, module.GCFHandlerUpdateEmailUser("PASETOPUBLICKEY", "MONGOSTRING", "warehouse_db", r))
+	fmt.Fprintf(w, module.PutEmail("PASETOPUBLICKEY", "MONGOSTRING", "warehouse_db", r))
 
 }
