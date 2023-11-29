@@ -24,6 +24,6 @@ func warehouse_password(w http.ResponseWriter, r *http.Request) {
 	}
 	// Set CORS headers for the main request.
 	w.Header().Set("Access-Control-Allow-Origin", "https://warehousemanagement88.github.io")
-	fmt.Fprintf(w, module.Put("PASETOPUBLICKEY", "MONGOSTRING", "warehouse_db", r))
+	fmt.Fprintf(w, module.PutPassword("PASETOPUBLICKEY", "MONGOSTRING", "warehouse_db", r))
 
 }
