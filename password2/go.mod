@@ -1,10 +1,10 @@
-module github.com/warehousemanagement88/gcp/email
+module github.com/warehousemanagement88/gcf/password2
 
 go 1.20
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.0
-	github.com/warehousemanagement88/be_warehouse v0.0.10
+	github.com/warehousemanagement88/be_warehouse v0.1.0
 )
 
 require (
