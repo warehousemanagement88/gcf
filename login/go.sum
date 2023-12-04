@@ -879,8 +879,8 @@ github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKs
 github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
 github.com/valyala/bytebufferpool v1.0.0 h1:GqA5TC/0021Y/b9FG4Oi9Mr3q7XYx6KllzawFIhcdPw=
 github.com/valyala/bytebufferpool v1.0.0/go.mod h1:6bBcMArwyJ5K/AmCkWv1jt77kVWyCJ6HpOuEn7z0Csc=
-github.com/warehousemanagement88/be_warehouse v0.0.5 h1:E+yKXC0LkpjX3sEXkSx7T0SzVKP49J3/Ysz0tXkWgVI=
-github.com/warehousemanagement88/be_warehouse v0.0.5/go.mod h1:f0aVj2ETw4NLJT9CLVGCyJuXQL3mQGMCDtvoO6kbTrw=
+github.com/warehousemanagement88/be_warehouse v0.1.7 h1:QCHhhPjCaiXKWLuz5TDlu4Y/OldWee+1cJsnSbSeqik=
+github.com/warehousemanagement88/be_warehouse v0.1.7/go.mod h1:f0aVj2ETw4NLJT9CLVGCyJuXQL3mQGMCDtvoO6kbTrw=
 github.com/xdg-go/pbkdf2 v1.0.0 h1:Su7DPu48wXMwC3bs7MCNG+z4FhcyEuz5dlvchbq0B0c=
 github.com/xdg-go/pbkdf2 v1.0.0/go.mod h1:jrpuAogTd400dnrH08LKmI/xc1MbPOebTwRqcT5RDeI=
 github.com/xdg-go/scram v1.1.2 h1:FHX5I5B4i4hKRVRBCFRxq1iQRej7WO3hhBuJf+UUySY=

@@ -35,5 +35,5 @@ func warehouse_gudanga(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	// Set CORS headers for the main request.
-	fmt.Fprintf(w, module.GCFHandlerGetGudangA("PASETOPUBLICKEY", "MONGOSTRING", "warehouse_db", r))
+	fmt.Fprintf(w, module.GCFHandlerGetGudangAFromID("PASETOPUBLICKEY", "MONGOSTRING", "warehouse_db", r))
 }
