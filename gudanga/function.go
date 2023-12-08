@@ -13,7 +13,7 @@ func init() {
 }
 
 func warehouse_gudanga(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Access-Control-Allow-Origin", "http://stocksynergy.my.id/")
+	w.Header().Set("Access-Control-Allow-Origin", "http://stocksynergy.my.id")
 	// Set CORS headers for the preflight request
 	if r.Method == http.MethodOptions {
 		w.Header().Set("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE")
